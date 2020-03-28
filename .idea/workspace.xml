@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/doit.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/actions/employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/light-bootstrap-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/default-avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/face-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/faces/tim_vector.jpe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/full-screen-image-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/loading-bubbles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/new_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sidebar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sidebar-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sidebar-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sidebar-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sidebar-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/tim_80x80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/chartist.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery.3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/light-bootstrap-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_chartist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_checkbox-radio-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_sidebar-and-main-panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_chartist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_morphing-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_transparency.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/lbd/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sass/light-bootstrap-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/Appointment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/Employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/Patient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/employee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/layout/master.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/AppConstants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/DbUtils.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>::</find>
+      <find>echo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>-&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1ZlZC6zCOzPrVE0Al28V6Zx9ggY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../php/php.exe" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PHP Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="" />
+      <created>1583956221225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583956221225</updated>
+      <workItem from="1583956225227" duration="1020000" />
+      <workItem from="1584215620948" duration="27000" />
+      <workItem from="1584281512466" duration="1175000" />
+      <workItem from="1585161642818" duration="11294000" />
+      <workItem from="1585415515495" duration="49000" />
+      <workItem from="1585415587463" duration="1629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="348" y="73" key="#CLI_Interpreters" timestamp="1585415685872">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="348" y="73" key="#CLI_Interpreters/0.0.1536.834@0.0.1536.834" timestamp="1585415685872" />
+    <state x="475" y="9" key="#PHP" timestamp="1585415687885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="475" y="9" key="#PHP/0.0.1536.834@0.0.1536.834" timestamp="1585415687885" />
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585415726474">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1585415726474" />
+    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1585415681831">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1585415681831" />
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1585419486987">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1585419486987" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1585419486987">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1585419486987" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1585419486986">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1585419486986" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1585419486987">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1585419486987" />
+    <state x="470" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1585415587435">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="470" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1585415587435" />
+  </component>
+</project>
