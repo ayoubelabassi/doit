@@ -15,6 +15,12 @@ class DbUtils
         return $con;
     }
 
+    /**
+     * Méthode pour inserer, modifier et supprimer les données à partir de base de données
+     * @param $query
+     * @param $params
+     * @return bool
+     */
     public function executeUpdate($query, $params)
     {
         $con = self::getConnection();
@@ -23,6 +29,11 @@ class DbUtils
         return true;
     }
 
+    /**
+     * Fonction pour récupérer les données à partir de la base de données utilisant une réquet SQL
+     * @param $query
+     * @return false|PDOStatement
+     */
     public function executeQuery($query)
     {
         $pdo = self::getConnection();
