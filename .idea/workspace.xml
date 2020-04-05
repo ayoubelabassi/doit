@@ -105,10 +105,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1585415726474" />
-    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1585419755095">
+    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1586097274302">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1585419755095" />
+    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586097274302" />
     <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1585598958727">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -137,9 +137,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="470" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1586097234332" />
-    <state x="499" y="228" key="git4idea.merge.GitPullDialog" timestamp="1586097248547">
+    <state x="499" y="228" key="git4idea.merge.GitPullDialog" timestamp="1586097281732">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="499" y="228" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1586097248547" />
+    <state x="499" y="228" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1586097281732" />
   </component>
 </project>
