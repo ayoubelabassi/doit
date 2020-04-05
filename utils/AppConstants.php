@@ -10,8 +10,8 @@ class AppConstants
 {
     public static $host = "localhost";
     public static $username = "root";
-    public static $password = "root";
-    public static $database = "doit";
+    public static $password = "";
+    public static $database = "db_doit";
     public static $port = "3306";
 }
 
