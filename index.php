@@ -26,7 +26,7 @@ if (isset($_POST["ok"])) {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Login V14</title>
+    <title>Tracker v1.0</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->

@@ -2,193 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="finnishing all the things">
-      <change afterPath="$PROJECT_DIR$/actions/loadEvents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appointments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-Black.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-BlackItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-ExtraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-ExtraLightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/raleway/Raleway-ThinItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/datetimepicker/datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/datetimepicker/jquery.datetimepicker.full.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/datetimepicker/jquery.datetimepicker.full.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/datetimepicker/jquery.datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/background-events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/daygrid-views.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/default.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/external-dragging-2cals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/external-dragging-builtin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/full-height.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/google-calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/js/theme-chooser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/json/events.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/list-views.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/locales.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/php/get-events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/php/get-time-zones.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/php/utils.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/rrule.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/selectable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/themes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/time-zones.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/timegrid-views.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/demos/week-numbers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales-all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-dz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-kw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-ly.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-ma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-sa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/en-nz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/es-us.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fr-ch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sr-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/google-calendar/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/google-calendar/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/interaction/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/interaction/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/luxon/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/luxon/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment-timezone/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment-timezone/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/rrule/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/rrule/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/fullcalendar/vendor/rrule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/appointment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/doctor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/majdoctor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/majemployee.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/majpatient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/patient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/Appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Appointment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/Doctor.php" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Doctor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/Employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/Patient.php" beforeDir="false" afterPath="$PROJECT_DIR$/domain/Patient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/employee.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/employee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/layout/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/layout/master.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/AppConstants.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/AppConstants.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/DbUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/DbUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/appointment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +83,7 @@
       <workItem from="1586169323305" duration="4324000" />
       <workItem from="1586541997278" duration="900000" />
       <workItem from="1586646460113" duration="994000" />
-      <workItem from="1586686068541" duration="24185000" />
+      <workItem from="1586686068541" duration="25236000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585419759104</created>
@@ -275,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585419759104</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finnishing all the things">
+      <created>1586715864016</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586715864016</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,10 +127,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1586171989218" />
-    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1586713525543">
+    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1586715862654">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586713525543" />
+    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586715862654" />
     <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1585598958727">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -375,10 +199,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1586692816436" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1585420243996">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586715870943">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1585420243996" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586715870943" />
     <state x="470" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1586686216062">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -59,9 +59,18 @@ foreach ($appointments as $app) {
                 <td>$app->reason</td>
                 <td>$app->startDate</td>
                 <td>$app->endDate</td>
-                <td>$app->status</td>
                 <td>$app->doctorName</td>
-                <td>$app->patientName</td>
+                <td>$app->patientName</td>";
+    if ($app->status == "PENDING") {
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-primary'>Demandé</span></td>";
+    } elseif ($app->status == "REJECTED") {
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-danger'>Rejeté</span></td>";
+    } elseif ($app->status == "CANCELED") {
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-warning'>Rejeté</span></td>";
+    } elseif ($app->status == "VALIDATED") {
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-success'>Validé</span></td>";
+    }
+    $lines .= "
                 <td>
                     <div class='btn-group'>
                         <button type='button'  class='btn btn-sm btn-primary btn-fill' data-toggle='modal' data-target='#appointmentModal' onclick='editAppointment($jsonObj)'>
@@ -113,9 +122,9 @@ $content = <<<EOD
                         <th>Motif</th>
                         <th>Date début</th>
                         <th>Date fin</th>
-                        <th>statut</th>
                         <th>Médecin</th>
                         <th>Patient</th>
+                        <th>Etat</th>
                         <th>Actions</th>
                     </tr>
                     </thead>
@@ -210,7 +219,7 @@ $modals = <<<EOD
       </div>
       <div class='modal-footer'>
         <button type='button' class='btn btn-fill btn-secondary' data-dismiss='modal'>Close</button>
-        <button name="ok" id='btnSave' type='submit' class='btn btn-fill btn-danger'>Sauvegarder</button>
+        <button name="ok" id='btnSave' type='submit' class='btn btn-fill btn-success'>Sauvegarder</button>
       </div>
     </div>
   </form>
