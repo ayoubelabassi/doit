@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="finnishing all the things">
+    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="fix appointment status">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/appointment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/doit.sql" beforeDir="false" afterPath="$PROJECT_DIR$/assets/doit.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <workItem from="1586169323305" duration="4324000" />
       <workItem from="1586541997278" duration="900000" />
       <workItem from="1586646460113" duration="994000" />
-      <workItem from="1586686068541" duration="25236000" />
+      <workItem from="1586686068541" duration="25309000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585419759104</created>
@@ -99,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586715864016</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix appointment status">
+      <created>1586716284198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586716284198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +113,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="finnishing all the things" />
-    <option name="LAST_COMMIT_MESSAGE" value="finnishing all the things" />
+    <MESSAGE value="fix appointment status" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix appointment status" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="73" key="#CLI_Interpreters" timestamp="1585415685872">
@@ -127,10 +133,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1586171989218" />
-    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1586715862654">
+    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1586716283313">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586715862654" />
+    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1586716283313" />
     <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1585598958727">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -199,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1586692816436" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586715870943">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1586716287023">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586715870943" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1586716287023" />
     <state x="470" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1586686216062">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
