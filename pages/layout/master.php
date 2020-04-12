@@ -1,33 +1,31 @@
-<!doctype html>
-<html lang="en">
+
+<?php
+session_start();
+if(!isset($_SESSION["user_id"]) && ($_SESSION["role"]!='doctor' && $_SESSION["role"]!='employee')){
+    header("Location:index.php");
+}
+?><!doctype html>
+<html>
 <head>
     <meta charset="utf-8"/>
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-
     <title>Tracker</title>
-
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
     <meta name="viewport" content="width=device-width"/>
-
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet"/>
-
     <link href="../assets/css/animate.min.css" rel="stylesheet"/>
-
     <link href="../assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet"/>
-
     <link href="../assets/css/demo.css" rel="stylesheet"/>
-
     <link href="../assets/css/font-awesome/css/font-awesome.css" rel="stylesheet"/>
-    
     <link href="../assets/css/pe-icon-7-stroke.css" rel="stylesheet"/>
+    <link href="../assets/js/datetimepicker/datetimepicker.css" rel="stylesheet"/>
+    <script src="../assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
+    <script src="../assets/js/datetimepicker/jquery.datetimepicker.full.js"></script>
 </head>
 <body>
-
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
-
-        <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
+    <div class="sidebar" data-color="blue" data-image=".../assets/img/sidebar-5.jpg">
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="#" class="simple-text">
@@ -36,7 +34,7 @@
             </div>
             <ul class="nav">
                 <li class="<?php echo($nav == 'appointment' ? 'active' : ''); ?>">
-                    <a href="">
+                    <a href="/doit/pages/appointment.php">
                         <i class="pe-7s-graph"></i>
                         <p>Rendez-Vous</p>
                     </a>
@@ -47,10 +45,21 @@
                         <p>Employés</p>
                     </a>
                 </li>
+                <li class="<?php echo($nav == 'doctor' ? 'active' : ''); ?>">
+                    <a href="/doit/pages/doctor.php">
+                        <i class="pe-7s-users"></i>
+                        <p>Médecins</p>
+                    </a>
+                </li>
+                <li class="<?php echo($nav == 'patient' ? 'active' : ''); ?>">
+                    <a href="/doit/pages/patient.php">
+                        <i class="fa fa-medkit"></i>
+                        <p>Patients</p>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
-
     <div class="main-panel">
         <nav class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
@@ -66,13 +75,15 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
+                        <!--
                         <li>
                             <a href="">
                                 <p>Mon Compt</p>
                             </a>
                         </li>
+                        -->
                         <li>
-                            <a href="#">
+                            <a href="index.php">
                                 <p>Se déconnecter</p>
                             </a>
                         </li>
@@ -103,11 +114,9 @@
                 </p>
             </div>
         </footer>
-
-
     </div>
 </div>
-
+<?php echo $modals; ?>
 
 </body>
 

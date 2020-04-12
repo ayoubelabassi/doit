@@ -25,8 +25,8 @@ class DbUtils
     {
         $con = self::getConnection();
         $q = $con->prepare($query);
-        $q->execute($params);
-        return true;
+        $res = $q->execute($params);
+        return $res;
     }
 
     /**

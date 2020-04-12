@@ -1,202 +1,119 @@
-<?php class Patient
+<?php
+require_once __DIR__ . "/../utils/DbUtils.php";
+
+class Patient
 {
-    private $id;
+    public $id;
+    public $firstName;
+    public $lastName;
+    public $address;
+    public $city;
+    public $zip;
+    public $email;
+    public $phone;
+    public $birthday;
+    public $insuranceNumber;
+    public $insuranceType;
 
-    private $firstName;
-
-    private $lastName;
-
-    private $address;
-
-    private $city;
-
-    private $zip;
-
-    private $email;
-
-    private $phone;
-
-    private $birthday;
-
-    private $insuranceNumber;
-
-    private $insuranceType;
-
-    /**
-     * @return mixed
-     */
-    public function getId()
+    public static function findAll()
     {
-        return $this->id;
+        $dbUtils = new DbUtils();
+        $query = "select * from patient;";
+        $stmt = $dbUtils->executeQuery($query);
+        $patients = [];
+        while ($row = $stmt->fetch()) {
+            $patient = new Patient();
+            $patient->id = $row["id"];
+            $patient->firstName = $row["first_name"];
+            $patient->lastName = $row["last_name"];
+            $patient->email = $row["email"];
+            $patient->phone = $row["phone"];
+            $patient->birthday = $row["birthday"];
+            $patient->city = $row["city"];
+            $patient->insuranceNumber = $row["ensurrence_number"];
+            $patient->address = $row["address"];
+            $patient->insuranceType = $row["ensurence_type"];
+            $patient->zip = $row["zip"];
+            $patients[] = $patient;
+        }
+        return $patients;
     }
 
-    /**
-     * @param mixed $id
-     */
-    public function setId($id)
+    public static function findOneById($id)
     {
-        $this->id = $id;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getFirstName()
-    {
-        return $this->firstName;
-    }
-
-    /**
-     * @param mixed $firstName
-     */
-    public function setFirstName($firstName)
-    {
-        $this->firstName = $firstName;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getLastName()
-    {
-        return $this->lastName;
-    }
-
-    /**
-     * @param mixed $lastName
-     */
-    public function setLastName($lastName)
-    {
-        $this->lastName = $lastName;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getAddress()
-    {
-        return $this->address;
-    }
-
-    /**
-     * @param mixed $address
-     */
-    public function setAddress($address)
-    {
-        $this->address = $address;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getCity()
-    {
-        return $this->city;
-    }
-
-    /**
-     * @param mixed $city
-     */
-    public function setCity($city)
-    {
-        $this->city = $city;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getZip()
-    {
-        return $this->zip;
-    }
-
-    /**
-     * @param mixed $zip
-     */
-    public function setZip($zip)
-    {
-        $this->zip = $zip;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-    /**
-     * @param mixed $email
-     */
-    public function setEmail($email)
-    {
-        $this->email = $email;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getPhone()
-    {
-        return $this->phone;
-    }
-
-    /**
-     * @param mixed $phone
-     */
-    public function setPhone($phone)
-    {
-        $this->phone = $phone;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getBirthday()
-    {
-        return $this->birthday;
-    }
-
-    /**
-     * @param mixed $birthday
-     */
-    public function setBirthday($birthday)
-    {
-        $this->birthday = $birthday;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getInsuranceNumber()
-    {
-        return $this->insuranceNumber;
-    }
-
-    /**
-     * @param mixed $insuranceNumber
-     */
-    public function setInsuranceNumber($insuranceNumber)
-    {
-        $this->insuranceNumber = $insuranceNumber;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getInsuranceType()
-    {
-        return $this->insuranceType;
-    }
-
-    /**
-     * @param mixed $insuranceType
-     */
-    public function setInsuranceType($insuranceType)
-    {
-        $this->insuranceType = $insuranceType;
+        $dbUtils = new DbUtils();
+        $query = "select * from patient where id=$id;";
+        $stmt = $dbUtils->executeQuery($query);
+        $patient = new Patient();
+        while ($row = $stmt->fetch()) {
+            $patient->id = $row["id"];
+            $patient->firstName = $row["first_name"];
+            $patient->lastName = $row["last_name"];
+            $patient->email = $row["email"];
+            $patient->phone = $row["phone"];
+            $patient->birthday = $row["birthday"];
+            $patient->city = $row["city"];
+            $patient->insuranceNumber = $row["ensurrence_number"];
+            $patient->address = $row["address"];
+            $patient->insuranceType = $row["ensurence_type"];
+            $patient->zip = $row["zip"];
+        }
+        return $patient;
     }
 
 
+    public static function findOneByInsuranceAndBirthDay($number, $birthday)
+    {
+        $dbUtils = new DbUtils();
+        $query = "select * from patient where ensurrence_number='$number' and birthday='$birthday';";
+        $stmt = $dbUtils->executeQuery($query);
+        $patient = new Patient();
+        while ($row = $stmt->fetch()) {
+            $patient->id = $row["id"];
+            $patient->firstName = $row["first_name"];
+            $patient->lastName = $row["last_name"];
+            $patient->email = $row["email"];
+            $patient->phone = $row["phone"];
+            $patient->birthday = $row["birthday"];
+            $patient->city = $row["city"];
+            $patient->insuranceNumber = $row["ensurrence_number"];
+            $patient->address = $row["address"];
+            $patient->insuranceType = $row["ensurence_type"];
+            $patient->zip = $row["zip"];
+        }
+        return $patient;
+    }
+
+    public function save()
+    {
+        $query = "";
+        $params = array($this->firstName, $this->lastName, $this->email,
+            $this->phone, $this->insuranceNumber, $this->city, $this->address, $this->zip, $this->birthday, $this->insuranceType);
+        if (empty($this->id) || $this->id == null) {
+            $query = "insert into patient (first_name, last_name, email, phone, ensurrence_number, city, address, zip, birthday, ensurence_type) VALUES (?,?,?,?,?,?,?,?,?,?);";
+        } else {
+            $query = "update patient set first_name=?,
+                                          last_name=?,
+                                          email=?,
+                                          phone=?,
+                                          ensurrence_number=?,
+                                          city=?,
+                                          address=?,
+                                          zip=?,
+                                          birthday=?,
+                                          ensurence_type=? where id=?";
+            array_push($params, $this->id);
+        }
+        $dbUtils = new DbUtils();
+        $res = $dbUtils->executeUpdate($query, $params);
+        return $res;
+    }
+
+    public function delete($id)
+    {
+        $query = "delete patient from patient where id=$id;";
+        $dbUtils = new DbUtils();
+        $res = $dbUtils->executeUpdate($query, []);
+        return $res;
+    }
 }

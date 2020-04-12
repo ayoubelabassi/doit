@@ -4,221 +4,27 @@ require_once __DIR__ . "/../utils/DbUtils.php";
 
 class Employee
 {
-    private $id;
+    public $id;
 
-    private $firstName;
+    public $firstName;
 
-    private $lastName;
+    public $lastName;
 
-    private $address;
+    public $address;
 
-    private $city;
+    public $city;
 
-    private $zip;
+    public $zip;
 
-    private $email;
+    public $email;
 
-    private $phone;
+    public $phone;
 
-    private $login;
+    public $login;
 
-    private $password;
+    public $password;
 
-    private $role;
-
-    private $speciality;
-
-    /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * @param mixed $id
-     */
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getFirstName()
-    {
-        return $this->firstName;
-    }
-
-    /**
-     * @param mixed $firstName
-     */
-    public function setFirstName($firstName)
-    {
-        $this->firstName = $firstName;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getLastName()
-    {
-        return $this->lastName;
-    }
-
-    /**
-     * @param mixed $lastName
-     */
-    public function setLastName($lastName)
-    {
-        $this->lastName = $lastName;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getAddress()
-    {
-        return $this->address;
-    }
-
-    /**
-     * @param mixed $address
-     */
-    public function setAddress($address)
-    {
-        $this->address = $address;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getCity()
-    {
-        return $this->city;
-    }
-
-    /**
-     * @param mixed $city
-     */
-    public function setCity($city)
-    {
-        $this->city = $city;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getZip()
-    {
-        return $this->zip;
-    }
-
-    /**
-     * @param mixed $zip
-     */
-    public function setZip($zip)
-    {
-        $this->zip = $zip;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getEmail()
-    {
-        return $this->email;
-    }
-
-    /**
-     * @param mixed $email
-     */
-    public function setEmail($email)
-    {
-        $this->email = $email;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getPhone()
-    {
-        return $this->phone;
-    }
-
-    /**
-     * @param mixed $phone
-     */
-    public function setPhone($phone)
-    {
-        $this->phone = $phone;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getLogin()
-    {
-        return $this->login;
-    }
-
-    /**
-     * @param mixed $login
-     */
-    public function setLogin($login)
-    {
-        $this->login = $login;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getPassword()
-    {
-        return $this->password;
-    }
-
-    /**
-     * @param mixed $password
-     */
-    public function setPassword($password)
-    {
-        $this->password = $password;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getRole()
-    {
-        return $this->role;
-    }
-
-    /**
-     * @param mixed $role
-     */
-    public function setRole($role)
-    {
-        $this->role = $role;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getSpeciality()
-    {
-        return $this->speciality;
-    }
-
-    /**
-     * @param mixed $speciality
-     */
-    public function setSpeciality($speciality)
-    {
-        $this->speciality = $speciality;
-    }
+    public $doctor;
 
     /**
      * Find All Employees
@@ -232,46 +38,104 @@ class Employee
         $employees = [];
         while ($row = $stmt->fetch()) {
             $employee = new Employee();
-            $employee->setId($row["id"]);
-            $employee->setFirstName($row["first_name"]);
-            $employee->setLastName($row["last_name"]);
-            $employee->setEmail($row["email"]);
-            $employee->setPhone($row["phone"]);
-            $employee->setPassword($row["password"]);
-            $employee->setCity($row["city"]);
-            $employee->setLogin($row["login"]);
-            $employee->setAddress($row["address"]);
-            $employee->setZip($row["zip"]);
-            $employee->setRole($row["role"]);
-            $employee->setSpeciality($row["speciality"]);
+            $employee->id = $row["id"];
+            $employee->firstName = $row["first_name"];
+            $employee->lastName = $row["last_name"];
+            $employee->email = $row["email"];
+            $employee->phone = $row["phone"];
+            $employee->password = $row["password"];
+            $employee->city = $row["city"];
+            $employee->login = $row["login"];
+            $employee->address = $row["address"];
+            $employee->zip = $row["zip"];
+            $employee->doctor = $row["doctor_fk"];
             $employees[] = $employee;
         }
         return $employees;
     }
 
+    public static function findOneById($id)
+    {
+        $dbUtils = new DbUtils();
+        $query = "select * from employee where id=$id;";
+        $stmt = $dbUtils->executeQuery($query);
+        $employee = new Employee();
+        while ($row = $stmt->fetch()) {
+            $employee->id = $row["id"];
+            $employee->firstName = $row["first_name"];
+            $employee->lastName = $row["last_name"];
+            $employee->email = $row["email"];
+            $employee->phone = $row["phone"];
+            $employee->password = $row["password"];
+            $employee->city = $row["city"];
+            $employee->login = $row["login"];
+            $employee->address = $row["address"];
+            $employee->zip = $row["zip"];
+            $employee->doctor = $row["doctor_fk"];
+        }
+        return $employee;
+    }
+
+    public static function findOneByLoginAndPassword($login, $password)
+    {
+        $dbUtils = new DbUtils();
+        $query = "select * from employee where login='$login' and password='$password';";
+        $stmt = $dbUtils->executeQuery($query);
+        $employee = new Employee();
+        while ($row = $stmt->fetch()) {
+            $employee->id = $row["id"];
+            $employee->firstName = $row["first_name"];
+            $employee->lastName = $row["last_name"];
+            $employee->email = $row["email"];
+            $employee->phone = $row["phone"];
+            $employee->password = $row["password"];
+            $employee->city = $row["city"];
+            $employee->login = $row["login"];
+            $employee->address = $row["address"];
+            $employee->zip = $row["zip"];
+            $employee->doctor = $row["doctor_fk"];
+        }
+        return $employee;
+    }
+
     public function save()
     {
         $query = "";
-        $params = array($this->firstName, $this->lastName, $this->email,
-            $this->phone, $this->password, $this->city, $this->login, $this->address, $this->zip, $this->role, $this->speciality);
+        $params = array($this->firstName,
+            $this->lastName,
+            $this->city,
+            $this->zip,
+            $this->address,
+            $this->email,
+            $this->phone,
+            $this->login,
+            $this->password,
+            $this->doctor);
         if (empty($this->id) || $this->id == null) {
-            $query = "insert into employee (first_name, last_name, email, phone, password, city, login, address, zip, role, speciality) VALUES (?,?,?,?,?,?,?,?,?,?,?);";
+            $query = "insert into employee(first_name, last_name, city, zip, address, email, phone, login, password, doctor_fk) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
         } else {
             $query = "update employee set first_name=?,
                                           last_name=?,
+                                          city=?,
+                                          zip=?,
+                                          address=?,
                                           email=?,
                                           phone=?,
-                                          password=?,
-                                          city=?,
                                           login=?,
-                                          address=?,
-                                          zip=?,
-                                          role=?,
-                                          speciality=? where id=?";
+                                          password=?,
+                                          doctor_fk=? where id=?";
             array_push($params, $this->id);
         }
         $dbUtils = new DbUtils();
         $res = $dbUtils->executeUpdate($query, $params);
+        return $res;
+    }
+
+    public static function delete($id)
+    {
+        $query = "delete employee from employee where id=$id;";
+        $dbUtils = new DbUtils();
+        $res = $dbUtils->executeUpdate($query, []);
         return $res;
     }
 }
