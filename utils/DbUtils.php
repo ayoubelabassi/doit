@@ -1,15 +1,9 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: AYOUB
- * Date: 11/03/2020
- * Time: 19:59
- */
 require_once __DIR__ . "/AppConstants.php";
 
 class DbUtils
 {
-    public static function getConnection()
+    private static function getConnection()
     {
         $con = new PDO("mysql:host=" . AppConstants::$host . ";" . "dbname=" . AppConstants::$database, AppConstants::$username, AppConstants::$password);
         return $con;
@@ -30,7 +24,7 @@ class DbUtils
     }
 
     /**
-     * Fonction pour récupérer les données à partir de la base de données utilisant une réquet SQL
+     * Fonction pour récupérer des données à partir de la base de données utilisant une réquet SQL
      * @param $query
      * @return false|PDOStatement
      */

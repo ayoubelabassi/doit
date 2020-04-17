@@ -45,13 +45,13 @@ $content = <<<EOD
         <div class="card">
             <div class="header">
                 <div class="d-inline-block">
-                    <h4 class="title">List des Patients</h4>
+                    <h4 class="title">Patientenliste</h4>
                 </div>
                 <div class="d-inline-block pull-right">
                     <a href="majpatient.php">
                         <button class="btn btn-fill btn-primary">
                             <span class="fa fa-plus"></span>
-                            <span>Ajouter</span>
+                            <span>Hinzufügen</span>
                         </button>
                     </a>
                 </div>
@@ -61,13 +61,13 @@ $content = <<<EOD
                     <thead>
                     <tr>
                         <th>#ID</th>
-                        <th>Nom</th>
-                        <th>Prénom</th>
-                        <th>Tél</th>
-                        <th>Ville</th>
-                        <th>N° Assurance</th>
-                        <th>Type Assurance</th>
-                        <th>Actions</th>
+                        <th>Nachname</th>
+                        <th>Vorname</th>
+                        <th>Tél-Nr</th>
+                        <th>Stadt</th>
+                        <th>Versicherungsnummer</th>
+                        <th>Versicherungsart</th>
+                        <th>Aktionen</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -85,17 +85,17 @@ $modals = <<<EOD
   <div class='modal-dialog' role='document'>
     <div class='modal-content'>
       <div class='modal-header'>
-        <h5 class='modal-title' id='exampleModalLabel'>Supprimer un Patient</h5>
+        <h5 class='modal-title' id='exampleModalLabel'>Patient löschen</h5>
         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
           <span aria-hidden='true'>&times;</span>
         </button>
       </div>
       <div class='modal-body'>
-        Voulez vous sur supprimer ce Patient
+        Möchten Sie Wirklich diesen Patient löschen
       </div>
       <div class='modal-footer'>
-        <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
-        <a href='' id='btnDelete' type='button' class='btn btn-danger'>Supprimer</a>
+        <button type='button' class='btn btn-secondary' data-dismiss='modal'>Schließen</button>
+        <a href='' id='btnDelete' type='button' class='btn btn-danger'>Löschen</a>
       </div>
     </div>
   </div>

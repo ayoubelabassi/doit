@@ -27,7 +27,7 @@ if (isset($_POST["ok"])) {
     }
 }
 
-$title = 'Employées';
+$title = 'Angestellter';
 $nav = "employee";
 
 $doctorItems = "";
@@ -43,31 +43,31 @@ $content = <<<EOD
         <div class="col-md-12">
             <div class="card">
                 <div class="header"><?php echo "hello"; ?>
-                    <h5>Ajouter ou modifier un employé</h5>
+                    <h5>Angestellter hinzufügen oder ändern</h5>
                 </div>
                 <div class="content">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>Nom</label>
+                                <label>Nachname</label>
                                 <input type="text" name="lastName" required class="form-control" value="$emp->lastName">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>Prénom</label>
+                                <label>Vorname</label>
                                 <input type="text" name="firstName" required class="form-control" value="$emp->firstName">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Ville</label>
+                                <label>Stadt</label>
                                 <input type="text" name="city" required class="form-control" value="$emp->city">
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label>Code postal</label>
+                                <label>Postleitzahl</label>
                                 <input type="number" name="zip" required class="form-control" value="$emp->zip">
                             </div>
                         </div>
@@ -79,7 +79,7 @@ $content = <<<EOD
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>N° Téléphone</label>
+                                <label>Tél-Nr.</label>
                                 <input type="tel" name="phone" required class="form-control" value="$emp->phone">
                             </div>
                         </div>
@@ -91,7 +91,7 @@ $content = <<<EOD
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Médecin</label>
+                                <label>Arztname</label>
                                 <select type="text" name="doctor" class="form-control" >$doctorItems</select>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ $content = <<<EOD
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Mot de passe</label>
+                                <label>Passwort</label>
                                 <input type="password" name="password" required class="form-control" value="$emp->password">
                             </div>
                         </div>
@@ -111,12 +111,12 @@ $content = <<<EOD
                             <div class="btn-group mx-2 mt-1 mb-1  pull-right">
                                 <button class="btn btn-fill btn-primary" name="ok">
                                     <span class="fa fa-save"></span>
-                                    <span>Sauvegarder</span>
+                                    <span>Speichern</span>
                                 </button>
                                 <button type="button" class="btn btn-fill btn-danger">
                                     <a href="employee.php" class=" color-white">
                                         <span class="fa fa-times"></span>
-                                        <span>Annuler</span>
+                                        <span>Abbrechen</span>
                                     </a>
                                 </button>
                             </div>

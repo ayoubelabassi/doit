@@ -57,19 +57,19 @@ if (isset($_POST["ok"])) {
         <div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
             <form class="login100-form validate-form flex-sb flex-w" method="post">
 					<span class="login100-form-title p-b-32">
-						Authentication
+						Login
 					</span>
                 <?php
                 foreach ($errors as $error) {
                     echo "<div  class='alert alert-danger w-100 mb-2 mt-1' role='alert'>$error</div>";
                 }
                 ?>
-                <span class="txt1 p-b-11">Username</span>
+                <span class="txt1 p-b-11">Benutzername</span>
                 <div class="wrap-input100 validate-input m-b-36" requied data-validate="Username is required">
                     <input class="input100" type="text" name="username">
                     <span class="focus-input100"></span>
                 </div>
-                <span class="txt1 p-b-11">Password</span>
+                <span class="txt1 p-b-11">Passwort</span>
                 <div class="wrap-input100 validate-input m-b-12" requied data-validate="Password is required">
 						<span class="btn-show-pass">
 							<i class="fa fa-eye"></i>

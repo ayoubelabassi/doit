@@ -26,7 +26,7 @@ if (isset($_GET["action"]) && $_GET["action"] == 'delete') {
     header("Location:appointment.php");
 }
 
-$title = 'Rendez-vous';
+$title = 'Termin';
 $nav = "appointment";
 $appointments = Appointment::findAll();
 
@@ -62,13 +62,13 @@ foreach ($appointments as $app) {
                 <td>$app->doctorName</td>
                 <td>$app->patientName</td>";
     if ($app->status == "PENDING") {
-        $lines .= "<td><span class='btn btn-sm btn-fill btn-primary'>Demandé</span></td>";
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-primary'>Beantragt</span></td>";
     } elseif ($app->status == "REJECTED") {
-        $lines .= "<td><span class='btn btn-sm btn-fill btn-danger'>Rejeté</span></td>";
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-danger'>Abgelehnt</span></td>";
     } elseif ($app->status == "CANCELED") {
-        $lines .= "<td><span class='btn btn-sm btn-fill btn-warning'>Rejeté</span></td>";
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-warning'>Abgesagt</span></td>";
     } elseif ($app->status == "VALIDATED") {
-        $lines .= "<td><span class='btn btn-sm btn-fill btn-success'>Validé</span></td>";
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-success'>Bestätigt</span></td>";
     }
     $lines .= "
                 <td>
@@ -106,12 +106,12 @@ $content = <<<EOD
         <div class="card">
             <div class="header">
                 <div class="d-inline-block">
-                    <h4 class="title">Rendez-Vous</h4>
+                    <h4 class="title">Termin</h4>
                 </div>
                 <div class="d-inline-block pull-right">
                     <button class="btn btn-fill btn-primary" data-toggle='modal' data-target='#appointmentModal'>
                         <span class="fa fa-plus"></span>
-                        <span>Ajouter</span>
+                        <span>Hinzufügen</span>
                     </button>
                 </div>
             </div>
@@ -119,13 +119,13 @@ $content = <<<EOD
                 <table class="table table-hover table-striped">
                     <thead>
                     <tr>
-                        <th>Motif</th>
-                        <th>Date début</th>
-                        <th>Date fin</th>
-                        <th>Médecin</th>
+                        <th>Grund</th>
+                        <th>terminbeginn</th>
+                        <th>Terminende</th>
+                        <th>Arzt</th>
                         <th>Patient</th>
-                        <th>Etat</th>
-                        <th>Actions</th>
+                        <th>Status</th>
+                        <th>Aktionen</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -143,17 +143,17 @@ $modals = <<<EOD
   <div class='modal-dialog' role='document'>
     <div class='modal-content'>
       <div class='modal-header'>
-        <h5 class='modal-title' id='exampleModalLabel'>Supprimer un Rendez-vous</h5>
+        <h5 class='modal-title' id='exampleModalLabel'>Termin löschen</h5>
         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
           <span aria-hidden='true'>&times;</span>
         </button>
       </div>
       <div class='modal-body'>
-        Voulez vous sur supprimer ce Rendez-vous
+        Möchten Sie diesen Termin löschen ?
       </div>
       <div class='modal-footer'>
         <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
-        <a href='' id='btnDelete' type='button' class='btn btn-danger'>Supprimer</a>
+        <a href='' id='btnDelete' type='button' class='btn btn-danger'>Löschen</a>
       </div>
     </div>
   </div>
@@ -164,7 +164,7 @@ $modals = <<<EOD
   <form method="post" action="appointment.php?action=save">
     <div class='modal-content'>
       <div class='modal-header'>
-        <h5 class='modal-title' id='exampleModalLabel'>Ajouter ou modifetr rendez-vous</h5>
+        <h5 class='modal-title' id='exampleModalLabel'>termin hinzufügen oder ändern</h5>
         <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
           <span aria-hidden='true'>&times;</span>
         </button>
@@ -180,46 +180,46 @@ $modals = <<<EOD
     </div>
     <div class="col-md-6">
         <div class="form-group">
-            <label>Médecin</label>
+            <label>Arzt</label>
             <select class="form-control" required name="doctor" id="doctor">$doctorItems</select>
         </div>
     </div>
     <div class="col-md-4">
         <div class="form-group">
-            <label>Date début</label>
+            <label>Terminbeginn</label>
             <input id="startDate" required name="startDate" class="form-control" type="text">
         </div>
     </div>
     <div class="col-md-4">
         <div class="form-group">
-            <label>Date fin</label>
+            <label>Terminende</label>
             <input id="endDate" required name="endDate" class="form-control" type="text">
         </div>
     </div>
     <div class="col-md-4">
         <div class="form-group">
-            <label>Etat</label>
+            <label>Status</label>
             <select name="status" required id="status" class="form-control">
                 <option value="null"></option>
-                <option value="PENDING">Demandé</option>
-                <option value="VALIDATED">Validé</option>
-                <option value="REJECTED">Rejeté</option>
-                <option value="CANCELED">Annulé</option>
-                <option value="CLOSED">Fermé</option>
+                <option value="PENDING">Beantragt</option>
+                <option value="VALIDATED">Bestätigt</option>
+                <option value="REJECTED">Abgelehnt</option>
+                <option value="CANCELED">Abgesagt</option>
+                <option value="CLOSED">Abgeshloßen</option>
             </select>
         </div>
     </div>
     <div class="col-md-12">
         <div class="form-group">
-            <label>Motif</label>
+            <label>Grund</label>
             <textarea id="reason" name="reason" class="form-control"></textarea>
         </div>
     </div>
 </div>
       </div>
       <div class='modal-footer'>
-        <button type='button' class='btn btn-fill btn-secondary' data-dismiss='modal'>Close</button>
-        <button name="ok" id='btnSave' type='submit' class='btn btn-fill btn-success'>Sauvegarder</button>
+        <button type='button' class='btn btn-fill btn-secondary' data-dismiss='modal'>Schließen</button>
+        <button name="ok" id='btnSave' type='submit' class='btn btn-fill btn-success'>Speichern</button>
       </div>
     </div>
   </form>

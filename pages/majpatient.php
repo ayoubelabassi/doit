@@ -32,31 +32,31 @@ $content = <<<EOD
         <div class="col-md-12">
             <div class="card">
                 <div class="header"><?php echo "hello"; ?>
-                    <h5>Ajouter ou modifier un Patient</h5>
+                    <h5>Patient hinzufügen oder ändern</h5>
                 </div>
                 <div class="content">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>Nom</label>
+                                <label>Nachname</label>
                                 <input type="text" name="lastName" required class="form-control" value="$patient->lastName">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>Prénom</label>
+                                <label>Vorname</label>
                                 <input type="text" name="firstName" required class="form-control" value="$patient->firstName">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Ville</label>
+                                <label>Stadt</label>
                                 <input type="text" name="city" required class="form-control" value="$patient->city">
                             </div>
                         </div>
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label>Code postal</label>
+                                <label>Postleitzahl</label>
                                 <input type="number" name="zip" required class="form-control" value="$patient->zip">
                             </div>
                         </div>
@@ -68,7 +68,7 @@ $content = <<<EOD
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label>N° Téléphone</label>
+                                <label>Tél-Nr.</label>
                                 <input type="tel" name="phone" required class="form-control" value="$patient->phone">
                             </div>
                         </div>
@@ -80,19 +80,19 @@ $content = <<<EOD
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Date naissance</label>
+                                <label>Geburtsdatum</label>
                                 <input type="date" name="birthday" required class="form-control" value="$patient->birthday">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Type assurance</label>
+                                <label>Versicherungsart</label>
                                 <input type="text" name="insuranceType" max="10" maxlength="10" required class="form-control" value="$patient->insuranceType">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label>Numéro assurance</label>
+                                <label>Versicherungsnummer</label>
                                 <input type="text" name="insuranceNumber" maxlength="50" required class="form-control" value="$patient->insuranceNumber">
                             </div>
                         </div>
@@ -100,12 +100,12 @@ $content = <<<EOD
                             <div class="btn-group mx-2 mt-1 mb-1  pull-right">
                                 <button class="btn btn-fill btn-primary" name="ok">
                                     <span class="fa fa-save"></span>
-                                    <span>Sauvegarder</span>
+                                    <span>Speichern</span>
                                 </button>
                                 <button type="button" class="btn btn-fill btn-danger">
                                     <a href="doctor.php" class=" color-white">
                                         <span class="fa fa-times"></span>
-                                        <span>Annuler</span>
+                                        <span>Abbrechen</span>
                                     </a>
                                 </button>
                             </div>

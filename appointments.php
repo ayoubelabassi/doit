@@ -1,3 +1,9 @@
+<?php
+session_start();
+if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'patient')) {
+    header("Location:index.php");
+}
+?>
 <!DOCTYPE html>
 <html lang='en'>
 
@@ -137,12 +143,6 @@
 </head>
 
 <body>
-<?php
-session_start();
-if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'patient')) {
-    header("Location:index.php");
-}
-?>
 <div>
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">
@@ -154,7 +154,7 @@ if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'patient')) {
             <img src="assets/img/default-avatar.png" width="30" height="30"
                  class="d-inline-block align-top" alt="">
             <label class="mr-2"><?php echo $_SESSION["name"];?></label>
-            <a href="index.php?logout=logout" class="btn btn-outline-danger my-2 my-sm-0" type="submit">Se déconnecté</a>
+            <a href="index.php?logout=logout" class="btn btn-outline-danger my-2 my-sm-0" type="submit">Abmelden</a>
         </form>
     </nav>
 </div>
@@ -164,7 +164,7 @@ if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'patient')) {
             <li class="demande">Demandés</li>
             <li class="valide">Validés</li>
             <li class="rejete">Rejetés</li>
-            <li class="canceled">Annuler</li>
+            <li class="canceled">Annulés</li>
         </ul>
     </div>
     <div class="cal" id='calendar'></div>
@@ -176,7 +176,7 @@ if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'patient')) {
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLongTitle">Rendez-vous</h5>
+                <h5 class="modal-title" id="exampleModalLongTitle">Termin</h5>
             </div>
             <div class="modal-body">
                 <div id="dateRdv" class="h3">
@@ -187,7 +187,7 @@ if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'patient')) {
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal">Schlißen</button>
             </div>
         </div>
     </div>

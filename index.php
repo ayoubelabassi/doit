@@ -1,4 +1,5 @@
 <?php
+header("Location:pages/index.php");
 require_once __DIR__ . "/domain/Patient.php";
 session_start();
 $errors = [];
@@ -46,7 +47,7 @@ if (isset($_POST["ok"])) {
         <div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
             <form class="login100-form validate-form flex-sb flex-w" method="post">
 					<span class="login100-form-title p-b-32">
-						Authentication
+						Anmelden
 					</span>
                 <?php
                 foreach ($errors as $error) {
@@ -57,19 +58,19 @@ if (isset($_POST["ok"])) {
                           </div>";
                 }
                 ?>
-                <span class="txt1 p-b-11">Numéro d'assurance</span>
+                <span class="txt1 p-b-11">Versicherungsnummer</span>
                 <div class="wrap-input100 validate-input m-b-36" requied data-validate="Numéro d'assurance is required">
                     <input class="input100" type="text" name="insuranceNumber">
                     <span class="focus-input100"></span>
                 </div>
-                <span class="txt1 p-b-11">Date naissance</span>
+                <span class="txt1 p-b-11">Geburtsdatum</span>
                 <div class="wrap-input100 validate-input m-b-12" requied data-validate="Date naissance is required">
                     <input class="input100" type="date" name="birthday">
                     <span class="focus-input100"></span>
                 </div>
                 <div class="container-login100-form-btn">
                     <button class="login100-form-btn w-100 mt-3" name="ok">
-                        Valider
+                        Anmelden
                     </button>
                 </div>
 

@@ -29,32 +29,32 @@ if(!isset($_SESSION["user_id"]) && ($_SESSION["role"]!='doctor' && $_SESSION["ro
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="#" class="simple-text">
-                    DO IT
+                    Tracker DO IT
                 </a>
             </div>
             <ul class="nav">
                 <li class="<?php echo($nav == 'appointment' ? 'active' : ''); ?>">
                     <a href="/doit/pages/appointment.php">
                         <i class="pe-7s-graph"></i>
-                        <p>Rendez-Vous</p>
+                        <p>Termin</p>
                     </a>
                 </li>
                 <li class="<?php echo($nav == 'employee' ? 'active' : ''); ?>">
                     <a href="/doit/pages/employee.php">
                         <i class="pe-7s-user"></i>
-                        <p>Employés</p>
+                        <p>Angestellter</p>
                     </a>
                 </li>
                 <li class="<?php echo($nav == 'doctor' ? 'active' : ''); ?>">
                     <a href="/doit/pages/doctor.php">
                         <i class="pe-7s-users"></i>
-                        <p>Médecins</p>
+                        <p>Arzt</p>
                     </a>
                 </li>
                 <li class="<?php echo($nav == 'patient' ? 'active' : ''); ?>">
                     <a href="/doit/pages/patient.php">
                         <i class="fa fa-medkit"></i>
-                        <p>Patients</p>
+                        <p>Patient</p>
                     </a>
                 </li>
             </ul>
@@ -84,7 +84,7 @@ if(!isset($_SESSION["user_id"]) && ($_SESSION["role"]!='doctor' && $_SESSION["ro
                         -->
                         <li>
                             <a href="index.php">
-                                <p>Se déconnecter</p>
+                                <p>Abmelden</p>
                             </a>
                         </li>
                         <li class="separator hidden-lg hidden-md"></li>

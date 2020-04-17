@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: AYOUB
- * Date: 11/03/2020
- * Time: 19:51
- */
+
 
 require_once __DIR__ . "/../utils/DbUtils.php";
 class Appointment
