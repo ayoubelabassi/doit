@@ -11,9 +11,9 @@ require_once __DIR__ . "/../utils/DbUtils.php";
 
 function sendEmail($email, $date, $hour, $patient, $doctor, $left)
 {
-    $from = "doit@ayra.store";
+    $from = "no-reply@app-tracker.tk";
     $host = "smtp.hostinger.com";
-    $username = "doit@ayra.store";
+    $username = "no-reply@app-tracker.tk";
     $password = "doit2020";
     $port = "587";
     $headers = array(

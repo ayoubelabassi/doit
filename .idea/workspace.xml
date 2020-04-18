@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="update database">
+    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="publish and send emails">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actions/sendemail.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/sendemail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/faces/tim_vector.jpe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/full-screen-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/loading-bubbles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/mask.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/new_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/tim_80x80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/appointment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/layout/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/layout/master.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/majdoctor.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/majdoctor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/majemployee.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/majemployee.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/majpatient.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/majpatient.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/AppConstants.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/AppConstants.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587150718702</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="publish and send emails">
+      <created>1587228625408</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587228625408</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +151,8 @@
     <MESSAGE value="finnishing all the things" />
     <MESSAGE value="fix appointment status" />
     <MESSAGE value="send email" />
-    <option name="LAST_COMMIT_MESSAGE" value="send email" />
+    <MESSAGE value="publish and send emails" />
+    <option name="LAST_COMMIT_MESSAGE" value="publish and send emails" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="73" key="#CLI_Interpreters" timestamp="1587223980621" />
@@ -181,8 +163,10 @@
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
     <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1587223980621" />
     <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
-    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1587223980621" />
-    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1587228624045">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587228624045" />
     <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1587223980621" />
     <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
     <state width="1493" height="132" key="GridCell.Tab.0.bottom" timestamp="1587223980621" />
@@ -217,8 +201,10 @@
     <state x="604" y="342" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1587223980621" />
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1587223980622" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587223980622" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1587228628564">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587228628564" />
     <state x="470" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1587223980622" />
     <state x="470" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980622" />
     <state x="463" y="30" width="609" height="804" key="find.popup" timestamp="1587223980622" />
