@@ -1,180 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/emailTemplate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/actions/loadEvents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/appointments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/background-events.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/daygrid-views.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/default.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/external-dragging-2cals.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/external-dragging-builtin.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/full-height.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/google-calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/js/theme-chooser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/json.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/json/events.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/list-views.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/locales.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/php/get-events.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/php/get-time-zones.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/php/utils.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/rrule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/selectable.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/themes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/time-zones.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/timegrid-views.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/demos/week-numbers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/bootstrap/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales-all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/af.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-dz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-kw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-ly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-ma.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-sa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar-tn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/bs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/en-nz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/es-us.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fr-ch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/hi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/kk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/lb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/nn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/pt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sr-cyrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/locales/zh-tw.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/core/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/daygrid/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/google-calendar/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/google-calendar/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/interaction/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/interaction/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/list/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/luxon/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/luxon/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment-timezone/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment-timezone/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/moment/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/rrule/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/rrule/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/packages/timegrid/main.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/fullcalendar/vendor/rrule.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="update database">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/sendemail.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/sendemail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/face-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/faces/tim_vector.jpe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/full-screen-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/loading-bubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sidebar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/tim_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/appointment.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/appointment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/layout/master.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/layout/master.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/majdoctor.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/majdoctor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/majemployee.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/majemployee.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/majpatient.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/majpatient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/AppConstants.php" beforeDir="false" afterPath="$PROJECT_DIR$/utils/AppConstants.php" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sendemail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/actions/sendemail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-              <folding>
-                <marker date="1587150458397" expanded="true" signature="593:1115" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="600:682" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="689:1107" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="703:741" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="742:1099" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="742:1100" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="760:835" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="836:921" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="836:949" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="836:1099" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="849:921" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="967:985" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="986:1076" ph="..." />
-                <marker date="1587150458397" expanded="true" signature="1773:2260" ph="SELECT a.id,... appointment" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="master.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/layout/master.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="23" column="85" lean-forward="true" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,12 +47,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Rendez-Vous</find>
-      <find>se d</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -197,28 +56,6 @@
       </map>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pages/index.php" />
-        <option value="$PROJECT_DIR$/pages/employee.php" />
-        <option value="$PROJECT_DIR$/pages/majdoctor.php" />
-        <option value="$PROJECT_DIR$/pages/majpatient.php" />
-        <option value="$PROJECT_DIR$/pages/majemployee.php" />
-        <option value="$PROJECT_DIR$/pages/doctor.php" />
-        <option value="$PROJECT_DIR$/appointments.php" />
-        <option value="$PROJECT_DIR$/pages/patient.php" />
-        <option value="$PROJECT_DIR$/pages/appointment.php" />
-        <option value="$PROJECT_DIR$/pages/layout/master.php" />
-        <option value="$PROJECT_DIR$/domain/Appointment.php" />
-        <option value="$PROJECT_DIR$/actions/emailTemplate.html" />
-        <option value="$PROJECT_DIR$/actions/sendemail.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
     <exe-path />
@@ -226,71 +63,15 @@
     <other-services-enabled>false</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="2e41495a-5814-4c8d-974b-41c4d3a268f8" name="localhost" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="35" />
-    <option name="width" value="1346" />
-    <option name="height" value="698" />
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1ZlZC6zCOzPrVE0Al28V6Zx9ggY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="actions" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -313,23 +94,10 @@
       <recent name="C:\xampp\htdocs\doit\assets\js" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
-    <configuration name="PHP Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" />
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+    <configuration name="PHP Server" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -394,36 +162,8 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19451000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22163388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -433,475 +173,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="send email" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="348" y="73" key="#CLI_Interpreters" />
-    <state x="348" y="73" key="#CLI_Interpreters/0.0.1536.834@0.0.1536.834" />
-    <state x="475" y="9" key="#PHP" />
-    <state x="475" y="9" key="#PHP/0.0.1536.834@0.0.1536.834" />
-    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" />
-    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" />
-    <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser" />
-    <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" />
-    <state x="424" y="13" key="CommitChangelistDialog2" />
-    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" />
-    <state x="548" y="173" key="FileChooserDialogImpl" />
-    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.0.bottom" />
-    <state width="1493" height="132" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.0.center" />
-    <state width="1493" height="132" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.0.left" />
-    <state width="1493" height="132" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.0.right" />
-    <state width="1493" height="132" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.1.bottom" />
-    <state width="1493" height="132" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.1.center" />
-    <state width="1493" height="132" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.1.left" />
-    <state width="1493" height="132" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.1.right" />
-    <state width="1493" height="132" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.2.bottom" />
-    <state width="1493" height="132" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.2.center" />
-    <state width="1493" height="132" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.2.left" />
-    <state width="1493" height="132" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" />
-    <state width="1493" height="132" key="GridCell.Tab.2.right" />
-    <state width="1493" height="132" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" />
-    <state x="481" y="152" key="MultipleFileMergeDialog" />
-    <state x="481" y="152" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" />
-    <state x="597" y="251" key="NewPhpClassDialog" />
-    <state x="597" y="251" key="NewPhpClassDialog/0.0.1536.834@0.0.1536.834" />
-    <state x="604" y="342" key="NewPhpFileDialog" />
-    <state x="604" y="342" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" />
-    <state width="498" height="446" key="SwitcherDM" />
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" />
-    <state x="470" y="243" key="com.intellij.ide.util.TipDialog" />
-    <state x="470" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" />
-    <state x="463" y="30" width="609" height="804" key="find.popup" />
-    <state x="463" y="30" width="609" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" />
-    <state x="499" y="228" key="git4idea.merge.GitPullDialog" />
-    <state x="499" y="228" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/layout/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/pe-icon-7-stroke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Appointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Doctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/DbUtils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Patient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="32" lean-forward="true" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="55" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/appointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/layout/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/appointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/layout/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="43" lean-forward="false" selection-start-line="86" selection-start-column="43" selection-end-line="86" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/doctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Doctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Patient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/loadEvents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/appointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="25" lean-forward="false" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appointments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Appointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="55" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="30" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/majdoctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="107" column="55" lean-forward="false" selection-start-line="107" selection-start-column="55" selection-end-line="107" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/majemployee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="69" column="47" lean-forward="false" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="91" column="78" lean-forward="false" selection-start-line="91" selection-start-column="78" selection-end-line="91" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/majpatient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="108" column="40" lean-forward="true" selection-start-line="108" selection-start-column="40" selection-end-line="108" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/doctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/loadEvents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appointments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="189" column="91" lean-forward="false" selection-start-line="189" selection-start-column="91" selection-end-line="189" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/patient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/default-avatar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/sidebar-5.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/sidebar-4.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/sidebar-3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/tim_80x80.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/pe-icon-7-stroke.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Doctor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Patient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
-          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/appointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/DbUtils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Employee.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="125" column="65" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="125" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/lbd/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/sass/light-bootstrap-dashboard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/doit.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/emailTemplate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/Appointment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <marker date="1587101879038" expanded="true" signature="363:688" ph="select a.*, appointment" />
-            <marker date="1587101879038" expanded="true" signature="1743:1853" ph="insert into appointment... " />
-            <marker date="1587101879038" expanded="true" signature="1896:2211" ph="update appoi... " />
-            <marker date="1587101879038" expanded="true" signature="2504:2546" ph="update appoi... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/actions/sendemail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <marker date="1587150458397" expanded="true" signature="593:1115" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="600:682" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="689:1107" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="703:741" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="742:1099" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="742:1100" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="760:835" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="836:921" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="836:949" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="836:1099" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="849:921" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="967:985" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="986:1076" ph="..." />
-            <marker date="1587150458397" expanded="true" signature="1773:2260" ph="SELECT a.id,... appointment" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/layout/master.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="23" column="85" lean-forward="true" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <state x="348" y="73" key="#CLI_Interpreters" timestamp="1587223980621" />
+    <state x="348" y="73" key="#CLI_Interpreters/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="475" y="9" key="#PHP" timestamp="1587223980621" />
+    <state x="475" y="9" key="#PHP/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587223980621" />
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1587223980621" />
+    <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1587223980621" />
+    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1587223980621" />
+    <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.bottom" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.center" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.left" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.right" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.bottom" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.center" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.left" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.right" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.bottom" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.center" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.left" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.right" timestamp="1587223980621" />
+    <state width="1493" height="132" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="481" y="152" key="MultipleFileMergeDialog" timestamp="1587223980621" />
+    <state x="481" y="152" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="597" y="251" key="NewPhpClassDialog" timestamp="1587223980621" />
+    <state x="597" y="251" key="NewPhpClassDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="604" y="342" key="NewPhpFileDialog" timestamp="1587223980621" />
+    <state x="604" y="342" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587223980621" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1587223980622" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587223980622" />
+    <state x="470" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1587223980622" />
+    <state x="470" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980622" />
+    <state x="463" y="30" width="609" height="804" key="find.popup" timestamp="1587223980622" />
+    <state x="463" y="30" width="609" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1587223980622" />
+    <state x="499" y="228" key="git4idea.merge.GitPullDialog" timestamp="1587223988086">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="228" key="git4idea.merge.GitPullDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223988086" />
   </component>
 </project>

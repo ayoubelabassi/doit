@@ -109,10 +109,18 @@ $content = <<<EOD
                     <h4 class="title">Termin</h4>
                 </div>
                 <div class="d-inline-block pull-right">
-                    <button class="btn btn-fill btn-primary" data-toggle='modal' data-target='#appointmentModal'>
-                        <span class="fa fa-plus"></span>
-                        <span>Hinzufügen</span>
-                    </button>
+                    <div>
+                        <button class="btn btn-fill btn-primary" data-toggle='modal' data-target='#appointmentModal'>
+                            <span class="fa fa-plus"></span>
+                            <span>Hinzufügen</span>
+                        </button>
+                        <a href="../actions/sendemail.php">
+                            <button class="btn btn-fill btn-info">
+                                <span class="fa fa-envelope-o"></span>
+                                <span>Patiënten informeren</span>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="content table-responsive table-full-width">

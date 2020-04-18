@@ -109,15 +109,13 @@ $content = <<<EOD
                         </div>
                         <div class="col-md-12">
                             <div class="btn-group mx-2 mt-1 mb-1  pull-right">
+                                <a href="employee.php" class="btn btn-fill btn-danger">
+                                    <span class="fa fa-times"></span>
+                                    <span>Abbrechen</span>
+                                </a>
                                 <button class="btn btn-fill btn-primary" name="ok">
                                     <span class="fa fa-save"></span>
                                     <span>Speichern</span>
-                                </button>
-                                <button type="button" class="btn btn-fill btn-danger">
-                                    <a href="employee.php" class=" color-white">
-                                        <span class="fa fa-times"></span>
-                                        <span>Abbrechen</span>
-                                    </a>
                                 </button>
                             </div>
                         </div>

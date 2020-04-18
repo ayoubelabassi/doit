@@ -11,10 +11,10 @@ require_once __DIR__ . "/../utils/DbUtils.php";
 
 function sendEmail($email, $date, $hour, $patient, $doctor, $left)
 {
-    $from = "";
-    $host = "n3plcpnl0276.prod.ams3.secureserver.net";
-    $username = "no-reply@eas-cons.com";
-    $password = "q#9taZeR_a(o";
+    $from = "doit@ayra.store";
+    $host = "smtp.hostinger.com";
+    $username = "doit@ayra.store";
+    $password = "doit2020";
     $port = "587";
     $headers = array(
         'From' => $from,
@@ -25,13 +25,14 @@ function sendEmail($email, $date, $hour, $patient, $doctor, $left)
     $body = <<<EOD
 <!DOCTYPE HTML>
 <html>
-<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 <body>
-<div style="width: 500px;border: 1px solid #3498DB">
+<div style="width: 500px;border: 1px solid #3498DB;margin: 0rem auto;">
     <div style="text-align: center; background-color: #3498DB; color: white; padding: 1rem;">
-        <h3>Lieb(e)r $patient, <br>
-           Ihr Termin bei uns ist in $left tage(n) fällig.  </h3>
+    <br/>
+        <div style="font-size: 1.3rem;">Lieb(e)r $patient, <br>
+           Ihr Termin bei uns ist in $left tage(n) f&#228;llig.  </div><br/>
     </div>
     <div style="text-align: center">
         <h4>Termin mit Dr. $doctor</h4>
@@ -74,7 +75,7 @@ function notifyPatientsAppointments()
 		DATE_FORMAT(a.start_date,'%d.%m.%Y') AS 'date',
 		DATE_FORMAT(a.start_date,'%H:%i') AS 'hour',
 		CONCAT(p.first_name,' ',p.last_name) AS 'patient',
-		CONCAT(d.first_name,' ',d.last_name) AS 'docotr',
+		CONCAT(d.first_name,' ',d.last_name) AS 'doctor',
 		DATEDIFF(a.start_date, NOW()) AS 'left',
 		p.email,
   		a.reason
@@ -90,8 +91,10 @@ function notifyPatientsAppointments()
         $doctor = $row["doctor"];
         $left = $row["left"];
         $email = $row["email"];
-        sendEmail($email, $date, $hour, $patient, $doctor);
+        sendEmail($email, $date, $hour, $patient, $doctor, $left);
     }
 }
 
 notifyPatientsAppointments();
+header("Location:../pages/appointment.php");
+?>

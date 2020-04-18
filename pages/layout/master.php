@@ -1,7 +1,6 @@
-
 <?php
 session_start();
-if(!isset($_SESSION["user_id"]) && ($_SESSION["role"]!='doctor' && $_SESSION["role"]!='employee')){
+if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'doctor' && $_SESSION["role"] != 'employee')) {
     header("Location:index.php");
 }
 ?><!doctype html>
@@ -25,7 +24,7 @@ if(!isset($_SESSION["user_id"]) && ($_SESSION["role"]!='doctor' && $_SESSION["ro
 </head>
 <body>
 <div class="wrapper">
-    <div class="sidebar" data-color="blue" data-image=".../assets/img/sidebar-5.jpg">
+    <div class="sidebar" data-color="blue" data-image="./../assets/img/stethoscope.jpg">
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="#" class="simple-text">
@@ -34,26 +33,26 @@ if(!isset($_SESSION["user_id"]) && ($_SESSION["role"]!='doctor' && $_SESSION["ro
             </div>
             <ul class="nav">
                 <li class="<?php echo($nav == 'appointment' ? 'active' : ''); ?>">
-                    <a href="/doit/pages/appointment.php">
-                        <i class="pe-7s-graph"></i>
+                    <a href="../pages/appointment.php">
+                        <i class="fa fa-calendar"></i>
                         <p>Termin</p>
                     </a>
                 </li>
                 <li class="<?php echo($nav == 'employee' ? 'active' : ''); ?>">
-                    <a href="/doit/pages/employee.php">
-                        <i class="pe-7s-user"></i>
+                    <a href="../pages/employee.php">
+                        <i class="fa fa-user"></i>
                         <p>Angestellter</p>
                     </a>
                 </li>
                 <li class="<?php echo($nav == 'doctor' ? 'active' : ''); ?>">
-                    <a href="/doit/pages/doctor.php">
-                        <i class="pe-7s-users"></i>
+                    <a href="../pages/doctor.php">
+                        <i class="fa fa-user-md"></i>
                         <p>Arzt</p>
                     </a>
                 </li>
                 <li class="<?php echo($nav == 'patient' ? 'active' : ''); ?>">
-                    <a href="/doit/pages/patient.php">
-                        <i class="fa fa-medkit"></i>
+                    <a href="../pages/patient.php">
+                        <i class="fa fa-bed"></i>
                         <p>Patient</p>
                     </a>
                 </li>
@@ -75,13 +74,13 @@ if(!isset($_SESSION["user_id"]) && ($_SESSION["role"]!='doctor' && $_SESSION["ro
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <!--
                         <li>
-                            <a href="">
-                                <p>Mon Compt</p>
-                            </a>
+                            <div style="padding-top: 1.5rem;">
+                                <img style="height: 30px; margin-right: 0.3rem;border: 1px solid #000;border-radius: 50%;"
+                                     src="../assets/img/default-avatar.png"/>
+                                <span><?php echo $_SESSION["name"] ?></span>
+                            </div>
                         </li>
-                        -->
                         <li>
                             <a href="index.php">
                                 <p>Abmelden</p>
