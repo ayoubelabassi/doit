@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="publish and send emails">
+    <list default="true" id="1246d7c6-3982-4d04-830b-ecdff2574cb5" name="Default" comment="publish and send emails&#10;setup email server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actions/sendemail.php" beforeDir="false" afterPath="$PROJECT_DIR$/actions/sendemail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +103,8 @@
       <workItem from="1587047357969" duration="829000" />
       <workItem from="1587101490829" duration="1567000" />
       <workItem from="1587146735067" duration="4246000" />
+      <workItem from="1587232251089" duration="33000" />
+      <workItem from="1587237072789" duration="436000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1585419759104</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587228625408</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="publish and send emails&#10;setup email server">
+      <created>1587228702342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587228702342</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +160,8 @@
     <MESSAGE value="fix appointment status" />
     <MESSAGE value="send email" />
     <MESSAGE value="publish and send emails" />
-    <option name="LAST_COMMIT_MESSAGE" value="publish and send emails" />
+    <MESSAGE value="publish and send emails&#10;setup email server" />
+    <option name="LAST_COMMIT_MESSAGE" value="publish and send emails&#10;setup email server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="73" key="#CLI_Interpreters" timestamp="1587223980621" />
@@ -163,10 +172,10 @@
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
     <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser" timestamp="1587223980621" />
     <state x="562" y="134" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
-    <state x="424" y="13" key="CommitChangelistDialog2" timestamp="1587228624045">
+    <state x="424" y="6" key="CommitChangelistDialog2" timestamp="1587232167499">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="424" y="13" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587228624045" />
+    <state x="424" y="6" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587232167499" />
     <state x="548" y="173" key="FileChooserDialogImpl" timestamp="1587223980621" />
     <state x="548" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
     <state width="1493" height="132" key="GridCell.Tab.0.bottom" timestamp="1587223980621" />
@@ -201,12 +210,14 @@
     <state x="604" y="342" key="NewPhpFileDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1587223980621" />
     <state width="498" height="446" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1587223980621" />
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1587228628564">
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2" timestamp="1587228727725">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587228628564" />
-    <state x="470" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1587223980622" />
-    <state x="470" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587223980622" />
+    <state x="361" y="151" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587228727725" />
+    <state x="470" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1587237504627">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="470" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587237504627" />
     <state x="463" y="30" width="609" height="804" key="find.popup" timestamp="1587223980622" />
     <state x="463" y="30" width="609" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1587223980622" />
     <state x="499" y="228" key="git4idea.merge.GitPullDialog" timestamp="1587223988086">
