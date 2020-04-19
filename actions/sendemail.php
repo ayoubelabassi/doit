@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: AYOUB
- * Date: 15/03/2020
- * Time: 16:54
- */
 require_once "Mail.php";
 require_once "Mail/mime.php";
 require_once __DIR__ . "/../utils/DbUtils.php";
