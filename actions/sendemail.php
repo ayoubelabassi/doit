@@ -25,12 +25,12 @@ function sendEmail($email, $date, $hour, $patient, $doctor, $left)
 <div style="width: 500px;border: 1px solid #3498DB;margin: 0rem auto;">
     <div style="text-align: center; background-color: #3498DB; color: white; padding: 1rem;">
     <br/>
-        <div style="font-size: 1.3rem;">Lieb(e)r $patient, <br>
-           Ihr Termin bei uns ist in $left tage(n) f&#228;llig.  </div><br/>
+        <div style="font-size: 1.3rem;">Liebe(r) $patient, <br>
+           Ihr Termin bei Praxis Dr.$doctor ist in $left tage(n) f&#228;llig.  </div><br/>
     </div>
     <div style="text-align: center">
         <h4>Termin mit Dr. $doctor</h4>
-        <h4>am $date . um . $hour</h4>
+        <h4>am $date um $hour</h4>
     </div>
     <div></div>
 </div>

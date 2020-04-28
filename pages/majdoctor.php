@@ -102,7 +102,7 @@ $content = <<<EOD
                                     <span class="fa fa-times"></span>
                                     <span>Abbrechen</span>
                                 </a>
-                                <button class="btn btn-fill btn-primary" name="ok">
+                                <button type="submit" class="btn btn-fill btn-primary" name="ok">
                                     <span class="fa fa-save"></span>
                                     <span>Speichern</span>
                                 </button>

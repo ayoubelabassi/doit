@@ -4,7 +4,7 @@ if (isset($_GET["id"])) {
     Patient::delete($_GET["id"]);
     header("Location:patient.php");
 }
-$title = 'List des Patients';
+$title = 'Patientenliste';
 $nav = "patient";
 
 $lines = "<tr>";

@@ -29,7 +29,7 @@ if (isset($_POST["ok"])) {
             $_SESSION["name"] = $doctor->firstName . ' ' . $doctor->lastName;
             header("Location:appointment.php");
         } else {
-            $errors[] = "Login ou mot de passe est incorrect!";
+            $errors[] = "Login oder Passwort ist falsch !";
         }
     }
 }

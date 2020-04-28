@@ -34,8 +34,8 @@ $content = '<div class="row">
                                     <thead>
                                     <tr>
                                         <th>#ID</th>
-                                        <th>Nachname</th>
                                         <th>Vorname</th>
+                                        <th>Nachname</th>
                                         <th>Tél</th>
                                         <th>Stadt</th>
                                         <th>Login</th>

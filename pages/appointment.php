@@ -69,6 +69,8 @@ foreach ($appointments as $app) {
         $lines .= "<td><span class='btn btn-sm btn-fill btn-warning'>Abgesagt</span></td>";
     } elseif ($app->status == "VALIDATED") {
         $lines .= "<td><span class='btn btn-sm btn-fill btn-success'>Bestätigt</span></td>";
+    } elseif ($app->status == "CLOSED") {
+        $lines .= "<td><span class='btn btn-sm btn-fill btn-info'>Abgeschloßen</span></td>";
     }
     $lines .= "
                 <td>

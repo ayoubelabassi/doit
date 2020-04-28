@@ -38,18 +38,20 @@ if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'doctor' && $_SESSION[
                         <p>Termin</p>
                     </a>
                 </li>
-                <li class="<?php echo($nav == 'employee' ? 'active' : ''); ?>">
-                    <a href="../pages/employee.php">
-                        <i class="fa fa-user"></i>
-                        <p>Angestellter</p>
-                    </a>
-                </li>
-                <li class="<?php echo($nav == 'doctor' ? 'active' : ''); ?>">
-                    <a href="../pages/doctor.php">
-                        <i class="fa fa-user-md"></i>
-                        <p>Arzt</p>
-                    </a>
-                </li>
+                <?php if ($_SESSION["role"] == 'doctor'): ?>
+                    <li class="<?php echo($nav == 'employee' ? 'active' : ''); ?>">
+                        <a href="../pages/employee.php">
+                            <i class="fa fa-user"></i>
+                            <p>Angestellter</p>
+                        </a>
+                    </li>
+                    <li class="<?php echo($nav == 'doctor' ? 'active' : ''); ?>">
+                        <a href="../pages/doctor.php">
+                            <i class="fa fa-user-md"></i>
+                            <p>Arzt</p>
+                        </a>
+                    </li>
+                <?php endif; ?>
                 <li class="<?php echo($nav == 'patient' ? 'active' : ''); ?>">
                     <a href="../pages/patient.php">
                         <i class="fa fa-bed"></i>
@@ -75,11 +77,13 @@ if (!isset($_SESSION["user_id"]) && ($_SESSION["role"] != 'doctor' && $_SESSION[
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <div style="padding-top: 1.5rem;">
+                            <div style="padding-top: 0.5rem;">
                                 <img style="height: 30px; margin-right: 0.3rem;border: 1px solid #000;border-radius: 50%;"
                                      src="../assets/img/default-avatar.png"/>
-                                <span><?php echo $_SESSION["name"] ?></span>
-                            </div>
+                                <div style="display: inline-block; padding-top: 1.3rem;">
+                                    <b><?php echo $_SESSION["name"] ?></b>
+                                    <small>(<?php echo $_SESSION["role"]=='employee'?'Angestellter':'Arzt'  ?>)</small>
+                                </div>
                         </li>
                         <li>
                             <a href="index.php">

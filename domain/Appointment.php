@@ -67,15 +67,6 @@ class Appointment
         return $res;
     }
 
-    public static function updateStatus($id, $status)
-    {
-        $params = array($status, $id);
-        $query = "update appointment set status=? where id=?";
-        $dbUtils = new DbUtils();
-        $res = $dbUtils->executeUpdate($query, $params);
-        return $res;
-    }
-
     public static function delete($id)
     {
         $query = "delete appointment from appointment where id=$id;";
